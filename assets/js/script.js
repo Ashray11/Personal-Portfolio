@@ -149,6 +149,21 @@ for (let i = 0; i < navigationLinks.length; i++) {
   });
 }
 
+document.addEventListener("DOMContentLoaded", () => {
+  const menuToggle = document.querySelector(".menu-toggle");
+  const navbarList = document.querySelector(".navbar-list");
+
+  menuToggle.addEventListener("click", () => {
+    navbarList.classList.toggle("active");
+  });
+
+  document.querySelectorAll(".navbar-link").forEach(link => {
+    link.addEventListener("click", () => {
+      navbarList.classList.remove("active");
+    });
+  });
+});
+
 document.getElementById("contact-form").addEventListener("submit", function(event) {
   event.preventDefault(); // Prevent the default form submission behavior
 

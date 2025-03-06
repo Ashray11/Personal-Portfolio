@@ -10,7 +10,7 @@
   <!--
     - favicon
   -->
-  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="./assets/images/favicon.jpg" type="image/x-icon">
 
   <!--
     - custom css link
@@ -23,6 +23,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 
 <body>
@@ -32,6 +34,54 @@
   -->
 
   <main>
+
+    <!--
+       - #NAVBAR
+     -->
+    
+    <nav class="navbar">
+
+      <div class="navbar-brand">
+        <img src="./assets/images/logo-removebg.png" alt="AK Logo" class="brand-logo">
+      </div>
+      
+      <button class="menu-toggle" aria-label="Toggle Navigation">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    
+      <ul class="navbar-list">
+    
+        <li class="navbar-item">
+          <button class="navbar-link  active" data-nav-link>About</button>
+        </li>
+    
+        <li class="navbar-item">
+          <button class="navbar-link" data-nav-link>Education</button>
+        </li>
+    
+        <li class="navbar-item">
+          <button class="navbar-link" data-nav-link>Experience</button>
+        </li>
+    
+        <li class="navbar-item">
+          <button class="navbar-link" data-nav-link>Skills</button>
+        </li>
+
+        <li class="navbar-item">
+          <button class="navbar-link" data-nav-link>Achievements</button>
+        </li>
+    
+        <li class="navbar-item">
+          <button class="navbar-link" data-nav-link>Portfolio</button>
+        </li>
+    
+        <li class="navbar-item">
+          <button class="navbar-link" data-nav-link>Contact Me</button>
+        </li>
+    
+      </ul>
+    
+    </nav>
 
     <!--
       - #SIDEBAR
@@ -47,8 +97,6 @@
 
         <div class="info-content">
           <h1 class="name" title="Ashray Kothari">Ashray Kothari</h1>
-
-          <p class="title">Web developer</p>
         </div>
 
         <button class="info_more-btn" data-sidebar-btn>
@@ -74,7 +122,7 @@
             <div class="contact-info">
               <p class="contact-title">Email</p>
 
-              <a href="mailto:akotha14@asu.edu" class="contact-link">akotha14@asu.edu</a>
+              <a href="mailto:ashrayk11@gmail.com?cc=akotha14@asu.edu" class="contact-link">ashrayk11@gmail.com</a>
             </div>
 
           </li>
@@ -145,53 +193,27 @@
             </a>
           </li>
 
+          <li class="social-item">
+            <a href="https://leetcode.com/u/trickcoder/" class="social-link" target="_blank">
+              <ion-icon name="code"></ion-icon>
+            </a>
+          </li>
+
         </ul>
+
+        <a href="./assets/Resume_SDE_AI.pdf" class="download-resume" download="Ashray_Kothari_Resume.pdf">
+          <ion-icon name="download-outline"></ion-icon> Download Resume
+        </a>
 
       </div>
 
     </aside>
-
-
-
-
 
     <!--
       - #main-content
     -->
 
     <div class="main-content">
-
-      <!--
-        - #NAVBAR
-      -->
-
-      <nav class="navbar">
-
-        <ul class="navbar-list">
-
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
-          </li>
-
-        </ul>
-
-      </nav>
-
-
-
-
 
       <!--
         - #ABOUT
@@ -205,11 +227,23 @@
 
         <section class="about-text">
           <p>
-            I'm a Computer Science professional with a solid foundation from Arizona State University, skilled in web development and machine learning. Proficient in Python, Java, ReactJS, and TensorFlow, I transform complex problems into efficient and innovative web and AI solutions.
+            I am a Master's student in Computer Science at Arizona State University with a passion for building scalable systems,
+            leveraging machine learning for real-world impact, and optimizing cloud-based architectures. My experience spans
+            full-stack development, cloud computing, and artificial intelligence, where I have developed and deployed robust
+            software solutions.
           </p>
 
           <p>
-            Dedicated to continuous learning and innovation in the rapidly evolving tech landscape, I actively seek opportunities to apply my skills and passion for web development and machine learning in dynamic settings. Eager to contribute my expertise, collaborate with diverse teams, and make a lasting impact through intuitive, high-quality web applications and intelligent systems that drive user engagement and deliver insightful, data-driven results.
+            My technical expertise spans a wide range of programming languages, tools, and frameworks, and I have successfully
+            applied these skills to real-world challenges through the development of web applications and machine learning models. I
+            thrive on the opportunity to tackle difficult problems, always seeking innovative solutions that drive meaningful
+            impact.
+          </p>
+
+          <p>
+            As I progress in my career, I aim to bridge the gap between software engineering and AI-driven solutions. I am eager to
+            collaborate on innovative projects, tackle challenging technical problems, and drive meaningful contributions to the
+            field.
           </p>
         </section>
 
@@ -235,7 +269,7 @@
                 <h4 class="h4 service-item-title">Web design</h4>
 
                 <p class="service-item-text">
-                  The most modern and high-quality design made at a professional level.
+                  Crafting modern, high-quality, and visually engaging designs with a user-centric approach.
                 </p>
               </div>
 
@@ -251,7 +285,7 @@
                 <h4 class="h4 service-item-title">Web Development</h4>
 
                 <p class="service-item-text">
-                  Creating functional, user-friendly, and visually appealing web applications.
+                  Building scalable, efficient, and responsive web applications with seamless user experiences.
                 </p>
               </div>
 
@@ -264,7 +298,7 @@
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Data Analysis</h4>
+                <h4 class="h4 service-item-title">Data Processing</h4>
 
                 <p class="service-item-text">
                   Extracting and interpreting valuable insights from large datasets to drive informed decision-making.
@@ -280,10 +314,10 @@
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">AI & ML</h4>
+                <h4 class="h4 service-item-title">AI & Machine Learning</h4>
 
                 <p class="service-item-text">
-                  Designing and implementing advanced machine learning models to solve complex problems.
+                  Developing intelligent models and AI-driven solutions to tackle complex real-world challenges.
                 </p>
               </div>
 
@@ -315,7 +349,10 @@
 
                 <div class="testimonials-text" data-testimonials-text>
                   <p>
-                    During my internship at Amazon, I collaborated with cross-functional teams to architect and implement a highly robust automated end-to-end testing framework. Utilizing tools such as JAVA and REST API, this collaborative effort resulted in an 80% reduction in testing duration. I also played a key role in identifying and resolving critical bugs within core modules, leading to a 40% decrease in post-launch issues. This experience highlighted the importance of teamwork, effective communication, and the ability to work cohesively with diverse teams to achieve significant technical milestones.
+                    At Amazon, I collaborated with software engineers, QA teams, and product managers to develop and integrate an automated testing framework into the CI/CD pipeline. 
+                    Working closely with cross-functional teams, I facilitated discussions, gathered feedback, and aligned testing strategies with deployment goals. This required effective coordination to ensure smooth integration, resolve dependencies, and address challenges proactively.
+                    Regular collaboration with senior engineers helped refine solutions, improve efficiency, and foster a culture of shared
+                    problem-solving, reinforcing the importance of teamwork in delivering robust and scalable software solutions.
                   </p>
                 </div>
 
@@ -334,7 +371,7 @@
 
                 <div class="testimonials-text" data-testimonials-text>
                   <p>
-                    Effective communication was pivotal in my role as a Teaching Assistant for C Programming courses at DA-IICT. I successfully conveyed complex programming concepts to a batch of 80 students, leveraging my deep understanding of C, data structures, and algorithms. I facilitated learning by breaking down intricate topics into manageable concepts, ensuring comprehensive understanding. This role underscored the value of clear, concise communication, active listening, and the ability to adapt my communication style to meet the needs of different learners, which are essential skills in both educational and professional technical environments.
+                    As a Teaching Assistant for the Principles of Programming course at Arizona State University, I guide students through fundamental programming concepts, ensuring clarity and structured learning. Previously, during my undergrad at DA-IICT, I mentored over 80 students in C programming, data structures, and algorithms. My ability to break down complex topics into digestible insights, coupled with interactive teaching methodologies, has enhanced student engagement and comprehension. These roles have strengthened my skills in technical communication, mentorship, and adaptive instruction.
                   </p>
                 </div>
 
@@ -352,7 +389,7 @@
 
                 <div class="testimonials-text" data-testimonials-text>
                   <p>
-                    As the leader of the AI Club at DA-IICT, I organized numerous workshops and events focused on artificial intelligence and machine learning, utilizing tools like TensorFlow and PyTorch. My leadership responsibilities included motivating team members, managing event logistics, and fostering an environment of collaboration and innovation. These activities not only enhanced the club's learning experience but also encouraged members to engage deeply with advanced AI concepts. This role demonstrated my ability to lead and inspire a team, manage multiple tasks efficiently, and create a positive, productive learning environment.
+                    As the AI Club leader at DA-IICT, I spearheaded multiple initiatives, including hands-on workshops on machine learning, guiding participants through TensorFlow and PyTorch implementations. I coordinated events, mentored students, and fostered a collaborative environment that encouraged innovation and deep engagement with AI technologies. Leading a team to drive technical discussions and skill development has refined my ability to strategize, manage teams, and inspire knowledge-sharing within the community.
                   </p>
                 </div>
 
@@ -370,10 +407,46 @@
 
                 <div class="testimonials-text" data-testimonials-text>
                   <p>
-                    In my role as a Research Assistant at DA-IICT Research Lab, I engineered a cutting-edge deep learning architecture for plasma diagnostics. This project involved creating an extensive training dataset and utilizing tools such as Python, TensorFlow, and advanced data analysis techniques. The result was a significant improvement in the accuracy of density estimations, achieving a 30% decrease in false positives and an SSIM close to 0.99. This experience demonstrated my ability to tackle complex problems, conduct rigorous research, and deliver innovative, data-driven solutions. Additionally, I contributed to the field by publishing these findings in the esteemed Journal of Physics D: Applied Physics, showcasing my commitment to advancing knowledge through research.
+                      During my research at DA-IICT, I engineered a deep learning model for plasma diagnostics, significantly enhancing accuracy by 30% and reducing false positives. Utilizing Python, TensorFlow, and advanced data processing techniques, I optimized model performance to achieve a near-perfect SSIM score of 0.99. Additionally, my findings were published in the Journal of Physics D: Applied Physics, underscoring my ability to solve complex real-world problems through research, innovation, and data-driven methodologies.
                   </p>
                 </div>
 
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+            
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/conflict.png" alt="Adaptability" width="60" data-testimonials-avatar>
+                </figure>
+            
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Adaptability</h4>
+            
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Working across diverse domains—including software development, AI research, and cloud computing—has honed my ability to adapt quickly to evolving technologies and project demands. Whether integrating new frameworks, tackling unforeseen technical challenges, or transitioning between roles, I thrive in dynamic environments that require continuous learning and flexibility.
+                  </p>
+                </div>
+            
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+            
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/conflict.png" alt="Critical thinking" width="60" data-testimonials-avatar>
+                </figure>
+            
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Critical Thinking</h4>
+            
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Through projects like algorithmic trading analysis and AI-driven medical diagnostics, I have developed a structured approach to tackling complex problems. By analyzing multiple methodologies, optimizing machine learning models, and validating results with data-driven insights, I ensure that solutions are both scalable and impactful. My ability to evaluate challenges from multiple perspectives enables me to devise strategies that are both efficient and innovative.
+                  </p>
+                </div>
+            
               </div>
             </li>
 
@@ -382,59 +455,142 @@
         </section>
 
         <div class="modal-container" data-modal-container>
-
-          <div class="overlay" data-overlay></div>
-
+        
+          <div class="overlay" data-overlay=""></div>
+        
           <section class="testimonials-modal">
-
+        
             <button class="modal-close-btn" data-modal-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
+              <ion-icon name="close-outline" role="img" class="md hydrated" aria-label="close outline"></ion-icon>
             </button>
-
+        
             <div class="modal-img-wrapper">
               <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+                <img src="./assets/images/collab.png"
+                  alt="Collaboration" width="80" data-modal-img>
               </figure>
-
+        
               <img src="./assets/images/icon-quote.svg" alt="quote icon">
             </div>
-
+        
             <div class="modal-content">
-
-              <h4 class="h3 modal-title" data-modal-title>Teamword</h4>
-
+        
+              <h4 class="h3 modal-title" data-modal-title="">Collaboration</h4>
+        
               <!-- <time datetime="2021-06-14">14 June, 2021</time> -->
-
-              <div data-modal-text>
+        
+              <div data-modal-text="">
                 <p>
-                  Leading the FIPI PDEU Student Chapter, fostering effective collaboration within the team proved to be instrumental. 
-                  During a critical juncture, our team encountered a challenging deadline for a pivotal project. By capitalizing on 
-                  positive relationships within the team, each member's distinct skills seamlessly synergized, resulting not only in 
-                  meeting but surpassing our objectives. This experience underscored the formidable power of teamwork in achieving 
-                  common goals.
+                  At Amazon, I collaborated with software engineers, QA teams, and product managers to develop and integrate an automated
+                  testing framework into the CI/CD pipeline. Working closely with cross-functional teams, I facilitated discussions,
+                  gathered feedback, and aligned testing strategies with deployment goals. This required effective coordination to ensure
+                  smooth integration, resolve dependencies, and address challenges proactively. Regular collaboration with senior
+                  engineers helped refine solutions, improve efficiency, and foster a culture of shared problem-solving, reinforcing the
+                  importance of teamwork in delivering robust and scalable software solutions.
                 </p>
               </div>
-
+        
             </div>
-
+        
           </section>
-
+        
         </div>
 
       </article>
 
 
+      <!--
+        - #EDUCATION
+      -->
+      <article class="education" data-page="education">
 
+        <header>
+          <h2 class="h2 article-title">Education</h2>
+        </header>
+
+        <section class="timeline">
+        
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+          </div>
+        
+          <ol class="timeline-list">
+        
+            <li class="timeline-item">
+        
+              <div class="timeline-content">
+
+                <div class="text-content">
+
+                  <h4 class="h4 timeline-item-title">Arizona State University</h4>
+
+                  <p class="timeline-text">Master of Science - Computer Science</p>
+
+                  <span>August 2023 — May 2025</span>
+
+                  <p class="timeline-text"><strong>GPA: 4.0/4.0</strong></p>
+
+                  <p class="timeline-text">
+                    My master's program at ASU is refining my technical expertise and analytical problem-solving abilities. With a focus on web development, machine learning, and data analysis, I am gaining hands-on experience in tackling complex computational challenges and architecting scalable solutions. This journey is strengthening my ability to innovate, collaborate in interdisciplinary teams, and drive impactful technological advancements.
+                  </p>
+
+                </div>
+
+                <div class="education-logo">
+                  <img src="./assets/images/asu-logo.png" alt="ASU Logo">
+                </div>
+
+              </div>
+
+            </li>
+        
+            <li class="timeline-item">
+
+              <div class="timeline-content">
+              
+                <div class="text-content">
+              
+                  <h4 class="h4 timeline-item-title">Dhirubhai Ambani Institute of Information and Communication Technology
+                  (DA-IICT)</h4>
+              
+                  <p class="timeline-text">Bachelor of Technology (Honours) - Information and Communication Technology with a minor in Computational Science</p>
+              
+                  <span>August 2019 — May 2023</span>
+
+                  <p class="timeline-text"><strong>GPA: 8.8/10.0</strong></p>
+              
+                  <p class="timeline-text">
+                    My undergraduate studies at DA-IICT provided a strong foundation in ICT, software development, and computational
+                    science. Engaging in collaborative projects, research, and coursework, I honed my problem-solving skills, communication, and teamwork abilities while applying theoretical knowledge to practical applications. These experiences laid the groundwork for my expertise in software engineering, data-driven decision-making, and system optimization.
+                  </p>
+              
+                </div>
+              
+                <div class="education-logo">
+                  <img src="./assets/images/da-logo.png" alt="DA Logo">
+                </div>
+              
+              </div>
+        
+            </li>
+            
+        
+          </ol>
+        
+        </section>
+      </article>
 
 
       <!--
-        - #RESUME
+        - #EXPERIENCE
       -->
 
-      <article class="resume" data-page="resume">
+      <article class="experience" data-page="experience">
 
         <header>
-          <h2 class="h2 article-title">Resume</h2>
+          <h2 class="h2 article-title">Experiences</h2>
         </header>
 
         <section class="timeline">
@@ -444,90 +600,10 @@
               <ion-icon name="book-outline"></ion-icon>
             </div>
 
-            <h3 class="h3">Education</h3>
+            <h3 class="h3">Professional Experience</h3>
           </div>
 
           <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Arizona State University</h4>
-
-              <p class="timeline-text">
-                Master of Science in Computer Science
-              </p> 
-
-              <span>August 2023 — May 2025</span>
-
-              <p class="timeline-text">
-                My master's program at ASU is enriching my technical expertise and problem-solving skills, with a focus on web development, machine learning, and data analysis. This journey is enhancing my ability to tackle complex technical challenges and develop innovative solutions.
-              </p> 
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Dhirubhai Ambani Institute of Information and Communication Technology (DA-IICT)</h4>
-
-              <p class="timeline-text">
-                Bachelor of Technology in Information and Communication Technology with a minor in Computational Science
-              </p>
-
-              <span>August 2019 — May 2023</span>
-
-              <p class="timeline-text">
-                My undergraduate studies at DA-IICT provided a strong foundation in ICT and computational science. I actively participated in collaborative projects, honing my communication and teamwork skills while applying theoretical knowledge to practical applications.              
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Experience</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Graduate Student Assistant - Grader</h4>
-
-              <p class="timeline-text">
-                Enterprise Learning
-              </p>
-
-              <span>January 2024 — Present</span>
-
-              <p class="timeline-text">
-                Assisting professors by grading assignments and exams for computer science courses, ensuring accurate and timely feedback for students. This role enhances my understanding of academic evaluation and deepens my knowledge of the subject matter.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Business Financial Assistant</h4>
-
-              <p class="timeline-text">
-                Enterprise Brand Strategy & Management
-              </p>
-
-              <span>December 2023 — March 2024</span>
-
-              <p class="timeline-text">
-                Managed financial records and assisted in budgeting processes, providing detailed financial reports. This role improved my financial analysis skills and my ability to manage business operations efficiently.
-              </p>
-
-            </li>
 
             <li class="timeline-item">
 
@@ -540,64 +616,140 @@
               <span>January 2023 — July 2023</span>
 
               <p class="timeline-text">
-                Developed an automated end-to-end testing framework, reducing testing duration by 80%. Collaborated with cross-functional teams to identify and resolve critical bugs, leading to a 40% decrease in post-launch issues.
+                At Amazon, I developed and integrated an automated end-to-end testing framework into the CI/CD pipeline, which
+                significantly reduced testing time by 80% and improved deployment efficiency. I collaborated with software engineers and QA teams to design GraphQL-powered regression test suites using Gremlin queries for AWS Neptune, increasing test
+                coverage by 25%. Additionally, I optimized SQL queries and data pipelines, reducing query execution time by 35% and
+                enhancing overall system performance. This role strengthened my ability to work in a fast-paced, large-scale
+                environment, exposed me to cloud-based graph databases, and deepened my expertise in automation and scalable software
+                solutions.
               </p>
 
             </li>
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Research Assistant</h4>
+              <h4 class="h4 timeline-item-title">AI Developer</h4>
 
               <p class="timeline-text">
-                Research Lab, DA-IICT
+                DA-IICT
               </p>
 
-              <span> August 2022 — December 2022</span>
+              <span> May 2022 — December 2022</span>
 
               <p class="timeline-text">
-                Engineered a deep learning architecture for plasma diagnostics, achieving a 30% decrease in false positives. Published research findings in the Journal of Physics D: Applied Physics, demonstrating innovative problem-solving and data analysis skills.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Club Lead</h4>
-
-              <p class="timeline-text">
-                AI Club, DA-IICT
-              </p>
-
-              <span> August 2021 — December 2022</span>
-
-              <p class="timeline-text">
-                Organized workshops and events on artificial intelligence and machine learning. Utilized TensorFlow and PyTorch to enhance members' skills, fostering a collaborative and innovative learning environment.
+                As part of my research at DA-IICT, I developed a deep learning-based plasma density estimation model using U-Net
+                architecture, which improved diagnostic accuracy by 30% and significantly reduced false positives. By curating and
+                processing 5,000+ data samples, I achieved a 0.99 SSIM score, ensuring precise density estimation across diverse
+                experimental conditions. My work involved tackling high-noise data challenges, applying image processing techniques, and
+                fine-tuning neural networks to enhance prediction accuracy. This research experience honed my ability to work with
+                complex datasets, conduct rigorous experimentation, and leverage AI to solve real-world scientific problems.
+                Furthermore, publishing my findings in the Journal of Physics D: Applied Physics reinforced my skills in technical
+                writing and communicating complex ideas effectively.
               </p>
 
             </li>
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Event Co-ordinator Lead</h4>
+              <h4 class="h4 timeline-item-title">High-Performance Computing Researcher</h4>
 
               <p class="timeline-text">
-                Synapse Committee, DA-IICT
+                DA-IICT
               </p>
 
-              <span> August 2020 — December 2022</span>
+              <span> January 2022 — May 2022</span>
 
               <p class="timeline-text">
-                Led the planning and execution of university events, ensuring seamless coordination and engaging experiences. This role honed my organizational and leadership skills, emphasizing the importance of meticulous planning and clear communication.
+                In this role, I focused on optimizing large-scale graph algorithms for high-performance computing environments. I
+                parallelized the PageRank algorithm using OpenMP, achieving a 43x improvement in throughput and significantly reducing
+                execution time for large-scale datasets. Additionally, I implemented memory-efficient data structures, optimizing
+                storage while handling dense graph structures. This experience deepened my understanding of parallel computing, cache
+                optimization, and load balancing techniques, reinforcing my ability to design efficient algorithms for computationally
+                intensive applications. Working in this research domain enhanced my analytical skills and prepared me to tackle
+                scalability challenges in real-world systems.
               </p>
 
             </li>
 
           </ol>
 
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+          
+            <h3 class="h3">Leadership & Teaching Experience</h3>
+          </div>
+          
+          <ol class="timeline-list">
+          
+            <li class="timeline-item">
+          
+              <h4 class="h4 timeline-item-title">Graduate Student Assistant - Grader</h4>
+          
+              <p class="timeline-text">
+                Enterprise Learning
+              </p>
+          
+              <span>January 2024 — Present</span>
+          
+              <p class="timeline-text">
+                As a Graduate Teaching Assistant at ASU, I assist students in mastering fundamental programming concepts, ensuring they
+                develop strong problem-solving skills. My role involves grading assignments and exams, providing timely and constructive
+                feedback to help students improve. Conducting mentoring sessions allows me to break down complex programming topics into
+                simpler, more digestible concepts, refining my ability to communicate technical information effectively. This experience
+                has strengthened my teaching abilities, deepened my own understanding of programming fundamentals, and reinforced the
+                importance of structured learning and clear communication.
+              </p>
+          
+            </li>
+
+            <li class="timeline-item">
+            
+              <h4 class="h4 timeline-item-title">Club Lead</h4>
+            
+              <p class="timeline-text">
+                AI Club, DA-IICT
+              </p>
+            
+              <span>August 2021 — December 2022</span>
+            
+              <p class="timeline-text">
+                As the Lead of the AI Club at DA-IICT, I organized workshops and technical sessions on machine learning, deep learning,
+                and AI applications, enabling students to gain hands-on experience with TensorFlow, PyTorch, and NLP techniques. I also
+                facilitated collaborative AI projects, helping members apply theoretical concepts to real-world implementations. Leading
+                the club enhanced my ability to mentor others, manage events, and foster an environment of continuous learning. This
+                experience also sharpened my leadership and organizational skills, preparing me to take initiative in complex team-based
+                projects.
+              </p>
+            
+            </li>
+
+            <li class="timeline-item">
+            
+              <h4 class="h4 timeline-item-title">Event Co-ordinator Lead</h4>
+            
+              <p class="timeline-text">
+                Synapse Committee, DA-IICT
+              </p>
+            
+              <span>August 2020 — December 2022</span>
+            
+              <p class="timeline-text">
+                Led the planning and execution of university events, ensuring seamless coordination and engaging experiences. This role honed my organizational and As the Event Coordinator Lead for DA-IICT’s Synapse Committee, I oversaw the planning and execution of large-scale
+                university events, ensuring seamless logistics, sponsorships, and promotions. Managing a team of over 50 volunteers, I
+                worked on event strategy, increasing student participation by 30% through innovative engagement initiatives. This role
+                taught me how to handle high-pressure situations, manage resources efficiently, and enhance team coordination, all of
+                which are essential skills in professional settings.
+              </p>
+            
+            </li>
+          
+          </ol>
+
         </section>
 
-        <section class="skill">
+        <!-- <section class="skill">
 
           <h3 class="h3 skills-title">My skills</h3>
         
@@ -725,12 +877,184 @@
         
           </div>
         
-        </section>
+        </section> -->
 
       </article>
 
 
+      <!--
+        - #SKILLS
+      -->
 
+      <article class="skills" data-page="skills">
+        <header>
+          <h2 class="h2 article-title">Skills</h2>
+        </header>
+      
+        <section class="skills-section">
+      
+          <div class="skill-category">
+            <h3 class="h3 skill-title">🚀 Programming Languages</h3>
+            <div class="skill-list">
+              <div class="skill-item"><i class="devicon-python-plain"></i> Python</div>
+              <div class="skill-item"><i class="devicon-java-plain"></i> Java</div>
+              <div class="skill-item"><i class="devicon-cplusplus-plain"></i> C++</div>
+              <div class="skill-item"><i class="devicon-c-plain"></i> C</div>
+              <div class="skill-item"><i class="devicon-javascript-plain"></i> JavaScript</div>
+              <div class="skill-item"><i class="devicon-typescript-plain"></i> TypeScript</div>
+              <div class="skill-item"><i class="devicon-mysql-plain"></i> SQL</div>
+              <div class="skill-item"><i class="devicon-go-plain"></i> Golang</div>
+            </div>
+          </div>
+      
+          <div class="skill-category">
+            <h3 class="h3 skill-title">🌐 Web & Software Development</h3>
+            <div class="skill-list">
+              <div class="skill-item"><i class="devicon-react-original"></i> React.js</div>
+              <div class="skill-item"><i class="devicon-nextjs-plain"></i> Next.js</div>
+              <div class="skill-item"><i class="devicon-nodejs-plain"></i> Node.js</div>
+              <div class="skill-item"><i class="devicon-express-original"></i> Express.js</div>
+              <div class="skill-item"><i class="devicon-tailwindcss-original"></i> TailwindCSS</div>
+              <div class="skill-item"><i class="devicon-bootstrap-plain"></i>Bootstrap</div>
+              <div class="skill-item"><i class="devicon-flask-original"></i> Flask</div>
+              <div class="skill-item"><i class="devicon-fastapi-plain"></i> FastAPI</div>
+              <div class="skill-item"><i class="devicon-junit-plain"></i> JUnit</div>
+              <div class="skill-item"><i class="devicon-pytest-plain"></i> PyTest</div>
+            </div>
+          </div>
+      
+          <div class="skill-category">
+            <h3 class="h3 skill-title">🧠 AI & Machine Learning</h3>
+            <div class="skill-list">
+              <div class="skill-item"><i class="devicon-tensorflow-original"></i> TensorFlow</div>
+              <div class="skill-item"><i class="devicon-pytorch-original"></i> PyTorch</div>
+              <div class="skill-item"><i class="devicon-scikitlearn-plain"></i> Scikit-learn</div>
+              <div class="skill-item"><i class="fa-solid fa-brain"></i> NLP</div>
+              <div class="skill-item"><i class="devicon-keras-plain"></i>Keras</div>
+            </div>
+          </div>
+      
+          <div class="skill-category">
+            <h3 class="h3 skill-title">📊 Data Processing & Analytics</h3>
+            <div class="skill-list">
+              <div class="skill-item"><i class="devicon-pandas-plain"></i> Pandas</div>
+              <div class="skill-item"><i class="devicon-numpy-plain"></i> NumPy</div>
+              <div class="skill-item"><i class="devicon-tableau-plain"></i> Tableau</div>
+              <div class="skill-item"><i class="fa-solid fa-chart-line"></i> Power BI</div>
+              <div class="skill-item"><i class="devicon-matplotlib-plain"></i> Matplotlib</div>
+              <div class="skill-item"><i class="devicon-apacheairflow-plain"></i> Apache Airflow</div>
+              <div class="skill-item"><i class="devicon-apachekafka-plain"></i> Apache Kafka</div>
+              <div class="skill-item"><i class="devicon-apachespark-plain-wordmark"></i> Apache Spark</div>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="h3 skill-title">🫙 Databases and Cloud Storage</h3>
+            <div class="skill-list">
+              <div class="skill-item"><i class="devicon-mysql-plain"></i> MySQL</div>
+              <div class="skill-item"><i class="devicon-postgresql-plain"></i> PostgreSQL</div>
+              <div class="skill-item"><i class="devicon-mongodb-plain"></i> MongoDB</div>
+              <div class="skill-item"><i class="devicon-mongoose-original"></i> Mongoose</div>
+              <div class="skill-item"><i class="devicon-microsoftsqlserver-plain"></i> Microsoft SQL Server</div>
+            </div>
+          </div>
+      
+          <div class="skill-category">
+            <h3 class="h3 skill-title">☁️ Cloud & DevOps</h3>
+            <div class="skill-list">
+              <div class="skill-item"><i class="devicon-amazonwebservices-plain-wordmark"></i> AWS</div>
+              <div class="skill-item"><i class="devicon-googlecloud-plain"></i>Google Cloud</div>
+              <div class="skill-item"><i class="devicon-docker-plain"></i> Docker</div>
+              <div class="skill-item"><i class="devicon-kubernetes-plain"></i> Kubernetes</div>
+              <div class="skill-item"><i class="devicon-terraform-plain"></i> Terraform</div>
+              <div class="skill-item"><i class="devicon-github-original"></i> GitHub Actions</div>
+              <div class="skill-item"><i class="devicon-firebase-plain"></i> Firebase</div>
+              <div class="skill-item"><i class="devicon-bitbucket-original"></i> BitBucket</div>
+            </div>
+          </div>
+      
+          <div class="skill-category">
+            <h3 class="h3 skill-title">🎯 Problem-Solving & Optimization</h3>
+            <div class="skill-list">
+              <div class="skill-item"><i class="fa-solid fa-cube"></i> Algorithms</div>
+              <div class="skill-item"><i class="fa-solid fa-network-wired"></i> System Design</div>
+              <div class="skill-item"><i class="fa-solid fa-bolt"></i> Parallel Computing</div>
+            </div>
+          </div>
+      
+        </section>
+      
+      </article>
+
+
+      <!--
+        - #ACHIEVEMENTS
+      -->
+      
+      <article class="achievements" data-page="achievements">
+      
+        <header>
+          <h2 class="h2 article-title">Achievements</h2>
+        </header>
+      
+        <section class="achievements-section">
+      
+          <div class="achievement-category">
+            <h3 class="h3 achievement-title">📑 Research Publications</h3>
+            <div class="achievement-list">
+              <div class="achievement-item">
+                <i class="fa-solid fa-book-open"></i>
+                <div class="achievement-content">
+                  <h4>Deep Learning-Assisted Microwave-Plasma Interaction for Density Estimation</h4>
+                  <p>Published in Journal of Physics D: Applied Physics, 2024</p>
+                  <a href="https://iopscience.iop.org/article/10.1088/1361-6463/acfdb6" target="_blank"
+                    class="achievement-link">View Paper</a>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="achievement-category">
+            <h3 class="h3 achievement-title">🎓 Certifications</h3>
+            <div class="achievement-list">
+              <div class="achievement-item">
+                <i class="fa-solid fa-certificate"></i>
+                <div class="achievement-content">
+                  <h4>AWS Certified Solutions Architect - Associate</h4>
+                  <p>Amazon Web Services, 2024</p>
+                  <a href="https://drive.google.com/file/d/1GOMjRAn3eEnCooaFUOKoaiFNXMJxjurn/view" target="_blank" class="achievement-link">View
+                    Certification</a>
+                </div>
+                <img src="./assets/images/aws-certi-logo.png" alt="AWS Logo" class="cert-logo">
+              </div>
+      
+              <div class="achievement-item">
+                <i class="fa-solid fa-certificate"></i>
+                <div class="achievement-content">
+                  <h4>Machine Learning Specialization</h4>
+                  <p>Coursera, 2022</p>
+                  <a href="https://drive.google.com/file/d/1UscplyXZta6Ka1rl0yukH616M4iZyKGZ/view" target="_blank"
+                    class="achievement-link">View Certification</a>
+                </div>
+                <img src="./assets/images/coursera-logo.png" alt="coursera Logo" class="cert-logo">
+              </div>
+
+              <div class="achievement-item">
+                <i class="fa-solid fa-certificate"></i>
+                <div class="achievement-content">
+                  <h4>Web Development Bootcamp</h4>
+                  <p>Udemy, 2020</p>
+                  <a href="https://drive.google.com/file/d/1UUWKEniPFJr2Snv5qyvXYnKgdI7B6QOF/view" target="_blank"
+                    class="achievement-link">View Certification</a>
+                </div>
+                <img src="./assets/images/Udemy-Logo.png" alt="udemy Logo" class="cert-logo">
+              </div>
+            </div>
+          </div>
+      
+        </section>
+      
+      </article>
 
 
       <!--
@@ -1005,11 +1329,12 @@
 
       </article>
 
+      
       <!--
         - #CONTACT
       -->
 
-      <article class="contact" data-page="contact">
+      <article class="contact" data-page="contact me">
 
         <header>
           <h2 class="h2 article-title">Contact</h2>
@@ -1017,7 +1342,7 @@
 
         <section class="mapbox" data-mapbox>
           <figure>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53280.7690300427!2d-111.97483437970517!3d33.42199124032695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b091e3681a78f%3A0x23ed42a7b5d0a45d!2sTempe%2C%20AZ%2085281%2C%20USA!5e0!3m2!1sen!2sin!4v1717504654837!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53280.7690300427!2d-111.97483437970517!3d33.42199124032695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b091e3681a78f%3A0x23ed42a7b5d0a45d!2sTempe%2C%20AZ%2085281%2C%20USA!5e0!3m2!1sen!2sin!4v1717504654837!5m2!1sen!2sin" width="500" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </figure>
         </section>
 
@@ -1051,10 +1376,6 @@
   </main>
 
 
-
-
-
-
   <!--
     - custom js link
   -->
@@ -1063,7 +1384,7 @@
   <!--
     - ionicon link
   -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@latest/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
